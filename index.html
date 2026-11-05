@@ -7,14 +7,14 @@
   <link rel="manifest" href="manifest.webmanifest"><link rel="apple-touch-icon" href="icon.svg">
   <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Parkinsans:wght@400;500;600;700&display=swap" rel="stylesheet">
-  <title>Rekod Produksi</title><link rel="stylesheet" href="styles.css">
+  <title>Rekod Produksi</title><link rel="stylesheet" href="styles.css"><link rel="stylesheet" href="bold.css">
 </head>
 <body><main>
   <header><span class="badge">REKOD HARIAN</span><h1>Produksi</h1><p>Pilih flavour, masukkan jumlah, kemudian simpan.</p></header>
   <section class="card" aria-label="Borang rekod produksi">
     <label for="date">1. Tarikh</label><input id="date" type="date">
     <fieldset><legend>2. Flavour</legend><div class="flavours" id="flavours"></div></fieldset>
-    <section aria-labelledby="jumlahLabel"><label id="jumlahLabel">3. Jumlah</label><output class="amount" id="amount" aria-live="polite">0</output><div class="keypad" id="keypad" aria-label="Keypad jumlah"></div></section>
+    <section aria-labelledby="jumlahLabel"><label id="jumlahLabel">3. Jumlah (pcs)</label><output class="amount" id="amount" aria-live="polite">0</output><div class="keypad" id="keypad" aria-label="Keypad jumlah"></div></section>
     <button class="save" id="save" type="button">Simpan Rekod</button><p class="message" id="message" role="status"></p>
   </section>
   <section class="records"><div class="records-title"><h2>Rekod Terkini</h2><button id="retry" class="link-button" type="button">Hantar semula</button></div><ul id="recordList"></ul></section>

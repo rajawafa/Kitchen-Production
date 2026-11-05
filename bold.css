@@ -1,0 +1,4 @@
+/* High-contrast tablet text */
+body, button, input, output { font-weight: 700; }
+header p, .record-meta { font-weight: 700; }
+.flavour, .key, .save, .link-button, .delete, input[type="date"] { font-weight: 700 !important; }
