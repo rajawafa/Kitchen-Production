@@ -1,5 +1,5 @@
 const FLAVOURS=['tompok','tam','miko','comot','oyen','abu','ruby','bulan','leo','lain-lain'];
-const ENDPOINT='PASTE_YOUR_GOOGLE_APPS_SCRIPT_WEB_APP_URL_HERE';
+const ENDPOINT='https://script.google.com/macros/s/AKfycbyKvPpLAE3r2gN339iQG7n97wKrUrZJDyqKhy7z0ZmYH9cCFBcZD4epJ7W6N1LpqRg1cA/exec';
 const $=s=>document.querySelector(s);let selected='',packs='',loose='',active='packs';const date=$('#date'),message=$('#message'),other=$('#otherFlavour');
 date.value=new Date().toLocaleDateString('en-CA',{timeZone:'Asia/Kuala_Lumpur'});
 function total(){return Number(packs||0)*35+Number(loose||0)}
